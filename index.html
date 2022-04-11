@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Mendelson Exteriors</title>
 </head>
 <body>
     <header>
-        <h1></h1>
-    </header>
-    <main>
         <section class="info" id="home">
             <h1>Mendelson Exteriors</h1>
 
             <p class="sizzle">Whether it is to prepare a property for sale or to bring out the aesthetic of your home, the professionals at Mendelson Exteriors are ready for the task. Over the past 30 years, our team has grown to provide expert home detailing and cleaning services to Central Indiana and Central and Southern Illinois areas. In addition to exterior home cleaning and maintenance, we partner with local services to take care of everything your property needs. Contact us today for a consultation on how we can bring out the beauty of your home.</p>
         </section>
+    </header>
+    <main>
         <section id="services">
             <h2>Our Services</h2>
             <ul>
@@ -41,6 +41,24 @@
                 <li>Window Cleaning</li>
                 <li>Roof Tar Application</li>
             </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Name"><br />
+                <input type="email" placeholder="Email Address">
+                <input type="tel" placeholder="Phone Number"><br />
+                <input type="text" placeholder="Street Address of Property"><br />
+                <input type="text" placeholder="City"><br />
+                <input type="text" placeholder="State">
+                <input type="text" placeholder="Zip"><br />
+                <input type="radio" id="resProp" name="propSelect" value="Residential">
+                <label for="resProp">Residential</label><br>
+                <input type="radio" id="comProp" name="propSelect" value="Commercial">
+                <label for="comProp">Commercial</label><br>
+                <textarea rows="5" cols="60" placeholder="Details on Service needs"></textarea>
+
+            </form>
         </section>
     </main>
     <footer>
