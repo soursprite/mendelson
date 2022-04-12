@@ -1,6 +1,7 @@
 *{
     border: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
@@ -123,14 +124,38 @@ section#about p {
     width: 60%;
 }
 section#services {
-    background: lightgray;
+    background: rgb(233, 233, 233);
 }
 
-section ul {
+#services ul {
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
+}
+
+#services li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 20px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+#services li img{
+    width: 90%;
+    height: 220px;
+    object-fit: cover;
+    padding-bottom: 20px;
+
+}
+
+#services span {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
 
 main li {
