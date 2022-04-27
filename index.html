@@ -80,26 +80,45 @@
             </ul>
         </section>
         <section id="contact">
-            <h2>Contact Us</h2>
-            <form>
-                <input type="text" placeholder="Name"><br />
-                <input type="email" placeholder="Email Address">
-                <input type="tel" placeholder="Phone Number"><br />
-                <input type="text" placeholder="Street Address of Property"><br />
-                <input type="text" placeholder="City"><br />
-                <input type="text" placeholder="State">
-                <input type="text" placeholder="Zip"><br />
-                <input type="radio" id="resProp" name="propSelect" value="Residential">
-                <label for="resProp">Residential</label>
-                <input type="radio" id="comProp" name="propSelect" value="Commercial">
-                <label for="comProp">Commercial</label><br>
-                <textarea rows="5" cols="60" placeholder="Details on Service needs"></textarea>
 
-            </form>
+            <div class="fifty">
+                <h2>Contact Us</h2>
+                <form id="contactForm">
+                    <input class="bigField" type="text" placeholder="Name"><br />
+                    <input type="email" placeholder="Email Address">
+                    <input type="tel" placeholder="Phone Number"><br />
+                    <input class="bigField" type="text" placeholder="Street Address of Property"><br />
+                    <input type="text" placeholder="City"><br />
+                    <input type="text" placeholder="State">
+                    <input type="text" placeholder="Zip"><br />
+                    <input class="radio" type="radio" id="resProp" name="propSelect" value="Residential">
+                    <label for="resProp">Residential</label>
+                    <input class="radio" type="radio" id="comProp" name="propSelect" value="Commercial">
+                    <label for="comProp">Commercial</label><br>
+                    <textarea rows="5" cols="60" placeholder="Details on Service needs"></textarea><br />
+                    <button>Submit</button>
+
+                </form>
+            </div>
+            <div class="fifty">
+                <p>We look forward to hearing from you!</p>
+                <p>If your needs are urgent, please include a message noting your deadlines in your service need details!</p>
+            </div>
         </section>
     </main>
     <footer>
-
+        <section>
+            <div class="fifty">
+                <img src="assets/defaultLogo.svg" alt="Mendelson Exteriors">
+                <p>1177 Greentree Blvd. <br />
+                Champaign, IL 61822 <br /><br />
+                217-555-5555<br />
+                mendelsonexteriors@gmail.com</p>
+            </div>
+            <div class="fifty">
+                <p>Website by Golden Jems</p>
+            </div>
+        </section>
     </footer>
     <script src="script.js"></script>
 </body>
